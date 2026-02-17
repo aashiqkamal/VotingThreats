@@ -1,1 +1,1 @@
-from .autoattack import AutoAttack
+from .autoattack import AutoAttackL1 as AutoAttack
