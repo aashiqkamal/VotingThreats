@@ -5,7 +5,7 @@ All attacks provided here are done on OnlyBubble voting grayscale dataset using 
 
 Each attack can be run by uncommenting one of the lines in the main. 
 
-We provide attack code for the APGD-L1, APGD-L2, APGD-LInf, L0-PGD, L0-Linf, L0-Sigma and model architecture files. 
+We provide attack code for the APGD-L1, APGD-L2, APGD-Linf, L0-PGD, L0-Linf, L0-Sigma and model architecture files. 
 
 # Step by Step Guide
 
