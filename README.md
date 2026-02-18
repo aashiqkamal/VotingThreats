@@ -40,7 +40,7 @@ The models can be downloaded [here] https://drive.google.com/file/d/1JZMPdHvKBBj
 
 # Dataset
 
-We applied the attack on val_OnlyBubbles_Grayscale.pth link (https://zenodo.org/records/18344123).
+We applied the attack on val_OnlyBubbles_Grayscale.pth (validation OnlyBubbles dataset) Link (https://zenodo.org/records/18344123).
 
 # Contact
 
