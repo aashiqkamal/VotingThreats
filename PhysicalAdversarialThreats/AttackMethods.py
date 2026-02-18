@@ -27,10 +27,10 @@ def Load_ResNet20():
     # -----------------------------
     # Choose dataset + checkpoint
     # -----------------------------
-    valBlob  = "PATH/TO/k_final_dataset_val_OnlyBubbles_Grayscale.pth" ## dataset will be provided on request
+    valBlob  = "PATH/TO/val_OnlyBubbles_Grayscale.pth" ## dataset link is provided on readme file
     # valBlob  = "PATH/TO/k_final_dataset_val_Combined_Grayscale.pth"
 
-    modelDir = "PATH/TO/ModelResNet20-VotingCombined-v2-Grayscale-Run1.th"  ## trained model ckpt file will be provided on request 
+    modelDir = "PATH/TO/ModelResNet20-VotingCombined-v2-Grayscale-Run1.th"  ## trained model ckpt file drive link is provided on readme file
     # modelDir = "PATH/TO/ModelResNet20-VotingOnlyBubbles-v2-Grayscale-Run1.th"
 
     # -----------------------------
@@ -289,3 +289,4 @@ def APGD_L1_ResNet20():
     adv_loader = DMP.TensorToDataLoader(x_adv.detach().cpu(), y_1k.cpu(), batchSize=32)
     adv_acc = DMP.validateD(adv_loader, model, device)
     print(f"[L1 APGD-DLR] Robust accuracy on 1k adv: {adv_acc*100:.2f}%")
+
